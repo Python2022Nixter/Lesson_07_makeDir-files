@@ -43,7 +43,7 @@ for i in range(t):
                 pass
             pass
         os.system("clear")
-        print("\nall files .txt deleted\n")
+        print("all files .txt deleted\n")
         break
 
     t -= 1
