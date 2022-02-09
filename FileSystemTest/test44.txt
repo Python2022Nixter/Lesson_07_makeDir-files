@@ -1,3 +1,0 @@
-# loop files in current directory
-# remuve all temp files
-
