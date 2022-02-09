@@ -38,7 +38,7 @@ for i in range(t):
 
     if t == 1:
         for chld in pathlib_path.parent.iterdir():
-            if chld.name.endswith(".txt"):
+            if chld.suffix == ".txt":
                 chld.unlink()
                 pass
             pass
