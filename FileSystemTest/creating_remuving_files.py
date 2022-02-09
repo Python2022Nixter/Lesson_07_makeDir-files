@@ -11,7 +11,7 @@ t = random.randrange(1, 5)
 names = []
 for i in range(t):
     names.append(f"file{i}.txt")
-for i in range(t*4):
+for i in range(t*5):
     names.append(f"file{i}.tmp")
 
 # 1. create path to current parent pathlib_path.parent
@@ -28,6 +28,7 @@ for chld in pathlib_path.parent.iterdir():
         pass
     pass
 print("all files .tmp deleted")
+sleep(3)
 
 t = 5
 for i in range(t):
